@@ -1,0 +1,131 @@
+(8299, 12)
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 8299 entries, 0 to 8298
+Data columns (total 12 columns):
+ #   Column        Non-Null Count  Dtype  
+---  ------        --------------  -----  
+ 0   Unnamed: 0    8299 non-null   int64  
+ 1   Rank          8299 non-null   int64  
+ 2   Name          8299 non-null   object 
+ 3   Platform      8299 non-null   object 
+ 4   Year          8161 non-null   float64
+ 5   Genre         8299 non-null   object 
+ 6   Publisher     8271 non-null   object 
+ 7   NA_Sales      8299 non-null   float64
+ 8   EU_Sales      8299 non-null   float64
+ 9   JP_Sales      8299 non-null   float64
+ 10  Other_Sales   8299 non-null   float64
+ 11  Global_Sales  8299 non-null   float64
+dtypes: float64(6), int64(2), object(4)
+memory usage: 778.2+ KB
+
+Unnamed: 0        0
+Rank              0
+Name              0
+Platform          0
+Year            138
+Genre             0
+Publisher        28
+NA_Sales          0
+EU_Sales          0
+JP_Sales          0
+Other_Sales       0
+Global_Sales      0
+
+Колонка>	среднее	медиана	отклонение
+NA_Sales>	0.25;	0.08;	0.64
+EU_Sales>	0.14;	0.02;	0.44
+JP_Sales>	0.08;	0.00;	0.32
+Other_Sales>	0.05;	0.01;	0.15
+Global_Sales>	0.52;	0.17;	1.32
+
+Platform
+DS      1107
+PS2     1058
+PS3      662
+X360     642
+Wii      636
+PSP      608
+PS       600
+PC       488
+GBA      430
+XB       427
+GC       265
+3DS      254
+PSV      196
+PS4      164
+N64      154
+SNES     129
+XOne     102
+SAT       97
+WiiU      66
+2600      56
+GB        55
+NES       48
+DC        25
+GEN       15
+NG         6
+WS         5
+SCD        2
+3DO        1
+GG         1
+Name: count, dtype: int64
+
+Genre
+Action          1615
+Sports          1173
+Misc             888
+Role-Playing     730
+Adventure        661
+Shooter          660
+Racing           606
+Simulation       454
+Platform         444
+Fighting         443
+Strategy         340
+Puzzle           285
+Name: count, dtype: int64
+
+Year
+2008.0    721
+2009.0    695
+2010.0    646
+2007.0    600
+2011.0    554
+2006.0    493
+2005.0    472
+2002.0    411
+2004.0    398
+2003.0    391
+2012.0    329
+2015.0    300
+2014.0    291
+2013.0    274
+2001.0    240
+1998.0    198
+1999.0    172
+2016.0    168
+2000.0    163
+1996.0    140
+1997.0    139
+1995.0    115
+1994.0     71
+1993.0     30
+1992.0     24
+1991.0     22
+1981.0     22
+1982.0     14
+1988.0     10
+1986.0      9
+1989.0      9
+1984.0      8
+1987.0      7
+1983.0      6
+1985.0      6
+1990.0      5
+1980.0      4
+2017.0      3
+2020.0      1
+Name: count, dtype: int64
+
